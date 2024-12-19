@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ background-color: rgb(1, 1, 19);
+}
+
+
+
+.logo img {
+  width: 74px;
+  height: 70px;
+  margin-left: -95px;
+  margin-top: -22px;
+}
+.logo p {
+  margin-left: -44px;
+  margin-top: -6px;
+}
+.nav li{
+  margin-top: 23px;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 69px;
+  color: white;
+  margin: 10px;
+}
+
+/* hero section */
+
+.hero-sec{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 101px;
+}
+
+.paragraph p {
+  margin-top: 70px;
+  font-size: 26px;
+  word-spacing: 7px;
+  color: white;
+}
+.paragraph h2 {
+  color: white;
+  font-size: 52px;
+  margin-top: -14px;
+  text-align: left;
+  /* word-spacing: -2px; */
+  font-weight: 400;
+}
+
+.paragraph h1 {
+  color: white;
+  font-size: 52px;
+  margin-top: -60px;
+  text-align: left;
+  font-weight: 500px;
+}
+
+.paragraph button {
+  height: 44px;
+  width: 173px;
+  border: none;
+  margin-left: -22px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.paragraph button:hover {
+
+  background: darkblue;
+  color: white;
+  transition: 1.5s ease-in-out;
+}
+.paragraph span {
+  color: white;
+  margin-left: 70px;
+}
+.client-exp {
+  display: flex;
+  margin-left: 75px;
+  margin-top: -115px;
+}
+
+.client-exp img {
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: darkblue;
+  margin-left: -29px;
+  transition: transform 0.5s;
+}
+.client-exp span{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.client-exp p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+.client-exp img:hover{
+  transform: scale(1.2);
+}
