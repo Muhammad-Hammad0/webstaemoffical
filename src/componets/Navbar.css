@@ -107,3 +107,54 @@ body{
 .client-exp img:hover{
   transform: scale(1.2);
 }
+
+
+.main-box-sec{
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid darkblue;
+  height: 250px;
+
+}
+.main-box-sec .box-sec1{
+ border-right: 1px solid darkblue;
+ color: white;
+}
+.main-box-sec .box-sec2{
+  border-right: 1px solid darkblue;
+  color: white;
+ }
+ .main-box-sec .box-sec3{
+  color: white;
+ }
+
+ .main-box-sec h2, p {
+  text-align: left;
+  margin-left: 95px;
+}
+.main-box-sec  img {
+  margin-left: -145px;
+  margin-top: 29px;
+}
+
+
+.service-sec {
+  color: white;
+  margin-top: 100px;
+}
+.service-sec h2{
+  color: rgb(15, 15, 92);
+}
+.service-sec p {
+  text-align: center;
+  font-size: 50px;
+  margin-left: 12px;
+}
+.service-sec span{
+  font-weight: 700;
+}
+.service-sec h3 {
+  font-weight: 300;
+  font-size: 17px;
+  margin-top: -38px;
+}

@@ -5,9 +5,12 @@ import "./Navbar.css";
 
 import logo from "../assets/websteam.png"
 import banner from "../assets/images/banner-illus.png"
-import Client1 from "../assets/client-1.png"
-// import Client2 from "../assets/client-2.png"
-import Client3 from "../assets/client-3.png"
+import Client1 from "../assets/images/client-1.jpg"
+import Client2 from "../assets/images/client-2.jpg"
+import Client3 from "../assets/images/client-3.jpg"
+import serviceicon1 from "../assets/images/service-icon1.png"
+import serviceicon from "../assets/images/service-icon2.png"
+import serviceicon2 from "../assets/images/service-icon3.png"
 
 const Home = () => {
   return (
@@ -39,9 +42,41 @@ const Home = () => {
     </div>
 <div className="client-exp">
 <img src={Client1} alt="client1" />
-<img src={Client1} alt="client2" />
+<img src={Client2} alt="client2" />
 <img src={Client3} alt="client3" />
 <p><span>690+</span> happy client</p>
+      </div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+      <div className="main-box-sec">
+      <div className="box-sec1">
+        <img src={serviceicon1} alt="" />
+        <h2>Product Development</h2>
+        <p>Advanced technology IT solutions help smooth product development for the success of your business.</p>
+      </div>
+      <div className="box-sec2">
+        <img src={serviceicon} alt="" />
+        <h2>Digital Services</h2>
+        <p>Boost your business with stronger digital solutions and connect with customers in a trustworthy way.</p>
+      </div>
+      <div className="box-sec3">
+      <img src={serviceicon2} alt="" />
+        <h2>IT Advisor</h2>
+        <p>Boost the business with smooth creative thinking and growth with excellent IT consultation and solutions.</p>
+      </div>
+      </div>
+
+      <div className="service-sec">
+        <h2>what we do</h2>
+        <p>Your <span>Vision,</span> Our<span>Inspiration,</span><br /> Business <span>Revolution</span> 
+        </p>
+        <h3>Your vision motivates us to launch a business revolution with amazing IT services and <br /> consultancy, and as a team, we shape the achievement of goals.</h3>
       </div>
    </div>
   );
