@@ -11,6 +11,12 @@ import Client3 from "../assets/images/client-3.jpg"
 import serviceicon1 from "../assets/images/service-icon1.png"
 import serviceicon from "../assets/images/service-icon2.png"
 import serviceicon2 from "../assets/images/service-icon3.png"
+import volume from "../assets/images/volume.png"
+import phone from "../assets/images/phone.png"
+import calculater from "../assets/images/calculater.png"
+import search from "../assets/images/search.png"
+
+
 
 const Home = () => {
   return (
@@ -77,7 +83,41 @@ const Home = () => {
         <p>Your <span>Vision,</span> Our<span>Inspiration,</span><br /> Business <span>Revolution</span> 
         </p>
         <h3>Your vision motivates us to launch a business revolution with amazing IT services and <br /> consultancy, and as a team, we shape the achievement of goals.</h3>
+     
       </div>
+      <br />
+      <br />
+      <br />
+     
+
+      <div className="service-box-sec">
+      <div className="brand-box1">
+        <img src={volume} alt="volume image" />
+        <h4>Comprehensive Web <br /> Solutions</h4>
+      </div>
+      <div className="brand-box2">
+      <img src={phone} alt="phone image" />
+      <h4>identity and branding <br />Expertices</h4>
+      </div>
+      <div className="brand-box3">
+   <img src={calculater} alt="calculater image" />
+        <h4>stragectic digital <br /> merketing</h4>
+      </div>
+      <div className="brand-box4">
+   <img src={search} alt="search image" />
+        <h4>Identity and Branding <br /> Expertise</h4>
+      </div>
+     </div>
+
+<div className="hero-serv-sec">
+  <div className="para-sec-set">
+    <p>Tailored, Dynamic, Integrated</p>
+    <h1>Customized solutions, <br /> constantly evolving.</h1>
+    <span>From concept to execution, we specialize in crafting visually appealing websites <br /> and user-friendly interfaces</span>
+  </div>
+  <img src="" alt="" />
+</div>
+
    </div>
   );
 };

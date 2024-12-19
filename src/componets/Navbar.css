@@ -158,3 +158,79 @@ body{
   font-size: 17px;
   margin-top: -38px;
 }
+
+.service-box-sec {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -75px;
+}
+.service-box-sec .brand-box1 img {
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  margin-top: 6px;
+  margin-left: 9px;
+  transition: background-color 0.3s ease;
+}
+.service-box-sec .brand-box2 img{
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  margin-top: 6px;
+  margin-left: 9px;
+}
+.service-box-sec .brand-box3 img{
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  margin-top: 6px;
+  margin-left: 9px;
+}
+.service-box-sec .brand-box4 img{
+  height: 55px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  margin-top: 6px;
+  margin-left: 9px;
+}
+.brand-box1{
+  border: 1px solid white;
+}
+.brand-box2{
+  border: 1px solid white;
+}
+.brand-box3{
+  border: 1px solid white;
+}
+.brand-box4{
+  border: 1px solid white;
+}
+.brand-box1
+,.brand-box2
+,.brand-box3
+,.brand-box4 
+{
+  border: 1px solid white;
+  width: 213px;
+  height: 69px;
+  border-radius: 47px;
+}
+.brand-box1, .brand-box2, .brand-box3, .brand-box4, h4 {
+  font-size: 12px;
+  margin-top: -45px;
+  margin-left: 76px;
+  text-align: left;
+  font-weight: 900;
+  color: white;
+}
+.service-box-sec .brand-box1 img:active{
+background: #000;
+}
