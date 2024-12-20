@@ -234,3 +234,234 @@ body{
 .service-box-sec .brand-box1 img:active{
 background: #000;
 }
+
+
+.hero-serv-sec {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+.hero-serv-sec .para-sec-set{
+    text-align: left;
+}
+
+.hero-serv-sec .para-sec-set p {
+  color: darkblue;
+  margin-left: 5px;
+  font-size: 23px;
+}
+.hero-serv-sec .para-sec-set h1 {
+  color: white;
+
+  font-size: 42px;
+  font-weight: 300;
+}
+.hero-serv-sec .para-sec-set span{
+  color: white;
+
+}
+.card-serv{
+  display: flex;
+  margin-top: -230px;
+}
+
+.sec-card {
+  color: white;
+  text-align: left;
+  border: 1px solid darkblue;
+  width: 239px;
+  border-radius: 11px;
+  height: 164px;
+  margin-left: 21px;
+  background: #101028;
+}
+.sec-card img{
+  height: 50px;
+  width: 50px;
+  margin-left: 11px;
+}
+.sec-card h3{
+font-size: 15px;
+}
+.sec-card p {
+  font-size: 15px;
+  margin-left: 18px;
+}
+
+.our-serv{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.our-serv .our-serv1 h5 {
+  font-size: 43px;
+  margin-left: 95px;
+  margin-top: -19px;
+  text-align: left;
+}
+.our-serv .our-serv2 p {
+  margin-left: 445px;
+  margin-top: 60px;
+  
+}
+
+.main-sec {
+  color: white;
+  border: 1px solid darkblue;
+  height: 441px;
+  border-bottom: none;
+}
+.main-sec .sec-logo {
+  margin-left: 55px;
+  text-align: left;
+  margin-top: 71px;
+}
+.main-sec .sec-logo img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: -27px;
+}
+.main-sec .sec-logo p{
+  margin-left: 10px;
+}
+.align-box{
+  display: flex;
+  margin-left: -36px;
+
+}
+.align-box .sec-card {
+    text-align: center;
+ line-height: 31px;
+
+}
+.align-box .sec-card:hover{
+   transform: rotate(10deg);
+  transition: 0.5s ease-in-out;
+}
+.align-box .sec-card a{
+  color: blueviolet;
+  text-decoration: none;
+
+}
+.main-sec .sec-web p{
+  writing-mode: vertical-rl; 
+  text-orientation: upright;
+  padding: 10px;          
+  font-size: 22px;       
+}
+.main-sec .sec-web {
+  border-left: 1px solid darkblue;
+  height: 435px;
+  margin-left: 869px;
+  margin-top: -404px;
+}
+.main-sec .sec-web p {
+  margin-top: -183px;
+}
+.main-sec .sec-digt {
+  border-left: 1px solid darkblue;
+  height: 435px;
+  margin-left: 941px;
+  margin-top: -435px;
+}
+.main-sec .sec-brand {
+  border-left: 1px solid darkblue;
+  height: 435px;
+  margin-left: 1047px;
+  margin-top: -435px;
+}
+.ratting-main{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid darkblue;
+  height: 300px;
+}
+.ratting-main .rate-box1 {
+  margin-top: 32px;
+  color: darkblue;
+  text-align: center;
+  font-size: 20px;
+}
+.ratting-main .rate-box2 {
+  margin-top: 32px;
+  color: darkblue;
+  text-align: center;
+  font-size: 20px;
+  border-left: 1px solid darkblue;
+  height: 298px;
+  margin-top: 1px;
+}
+.ratting-main .rate-box3 {
+  margin-top: 32px;
+  color: darkblue;
+  text-align: center;
+  font-size: 20px;
+  border-left: 1px solid darkblue;
+  height: 298px;
+  margin-top: 1px;
+}
+.ratting-main .rate-box4 {
+  margin-top: 32px;
+  color: darkblue;
+  text-align: center;
+  font-size: 20px;
+  border-left: 1px solid darkblue;
+  height: 298px;
+  margin-top: 1px;
+}
+.ratting-main .rate-box1 p {
+  color: white;
+  font-size: 15px;
+  margin-left: 27px;
+  margin-top: -29px;
+}
+.ratting-main .rate-box1 img {
+  margin-left: 20px;
+  margin-top: 21px;
+}
+.ratting-main .rate-box2 p {
+  color: white;
+  font-size: 15px;
+  margin-left: 72px;
+  margin-top: -28px;
+}
+.ratting-main .rate-box2 img {
+  margin-left: 66px;
+  margin-top: 56px;
+}
+.ratting-main .rate-box2 h1 {
+  margin-left: 43px;
+  margin-top: 23px;
+}
+
+
+.ratting-main .rate-box3 p {
+  color: white;
+  font-size: 15px;
+  margin-left: 72px;
+  margin-top: -28px;
+}
+.ratting-main .rate-box3 img {
+  margin-left: 66px;
+  margin-top: 56px;
+}
+.ratting-main .rate-box3 h1 {
+  margin-left: 43px;
+  margin-top: 23px;
+}
+
+.ratting-main .rate-box4 p {
+  color: white;
+  font-size: 15px;
+  margin-left: 72px;
+  margin-top: -28px;
+}
+.ratting-main .rate-box4 img {
+  margin-left: 66px;
+  margin-top: 56px;
+}
+.ratting-main .rate-box4 h1 {
+  margin-left: 43px;
+  margin-top: 23px;
+}
+

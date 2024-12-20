@@ -15,7 +15,9 @@ import volume from "../assets/images/volume.png"
 import phone from "../assets/images/phone.png"
 import calculater from "../assets/images/calculater.png"
 import search from "../assets/images/search.png"
-
+import tab from "../assets/images/tab-web-1.png"
+import tab1 from "../assets/images/tab-web-2.png"
+import cube from "../assets/images/cube.png"
 
 
 const Home = () => {
@@ -115,10 +117,101 @@ const Home = () => {
     <h1>Customized solutions, <br /> constantly evolving.</h1>
     <span>From concept to execution, we specialize in crafting visually appealing websites <br /> and user-friendly interfaces</span>
   </div>
-  <img src="" alt="" />
+  <img src={banner} alt="" />
 </div>
+<div className="card-serv">
+  <div className="sec-card">
+    <h3>
+      <img src={tab} alt="" />
+    Concept to Execution</h3>
+    <p>From ideation to realization, we bring visions to life</p>
+  </div>
+  <div className="sec-card">
+    <h3>
+      <img src={tab1} alt="" />
+      User-Friendly Experience</h3>
+    <p>Seamless interactions, delighting users effortlessly</p>
+  </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
+<div className="our-serv">
+    <div className="our-serv1">
+<p>OUR SERVICES</p>
+<h5>What we offer for you</h5>
+    </div>
+    <div className="our-serv2">
+<p>Discover growth with our customized IT solutions. Different global organizations trust us for our best software, services, and brand. Join us now.</p>
+</div>
+    </div>
+<div className="main-sec">
+  <div className="sec-logo">
+    <img src={cube} alt="" />
+<h2>Logo designing</h2>
+<p>Creating unique brand identities through creative logo design that reflects the personality of your <br /> business and creates an eternal mark online.</p>
+  <div className="align-box">
+  <div className="sec-card">
+    <h3>
+    Logo Design <br />
+    Learn more about logo design service</h3>
+    <a href="#">read more</a>
+  </div>
+  <div className="sec-card">
+    <h3>
+    Logo Portfolio
+    Check out our logo design portfolio</h3>
+    <a href="#">click more</a>
+  </div>
+  <div className="sec-card">
+    <h3>
+    Logo Packages
+    Check out our logo design packages</h3>
+    <a href="#">click more</a>
+  </div>
+  </div>
+  </div>
+  <div className="sec-web">
+    <p>Web designing</p>
+  </div>
+  <div className="sec-digt"></div>
+  <div className="sec-brand"></div>
+</div>
+<div className="ratting-main">
+  <div className="rate-box1">
+    <img src={cube} alt="" />
+    <h1>+858k</h1>
+    <p>Happy Clients</p>
+  </div>
+  <div className="rate-box2">
+  <img src={cube} alt="" />
+    <h1>+356k</h1>
+    <p>Projects Completed</p>
+  </div>
+  <div className="rate-box3">
+  <img src={cube} alt="" />
+    <h1>+145k</h1>
+    <p>Business Partners</p>
+  </div>
+  <div className="rate-box4">
+  <img src={cube} alt="" />
+    <h1>+29</h1>
+    <p>Awards Wining</p>
+  </div>
+</div>
    </div>
+
+  
   );
 };
 
