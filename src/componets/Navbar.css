@@ -703,3 +703,100 @@ transform: scale(10px);
   color: #282850;
   font-size: 17px;
 }
+.main-heading-box .headin-sec1 {
+  color: white;
+  margin-top: 66px;
+  font-size: 15px;
+  border: 1px solid darkblue;
+  text-align: left;
+  width: 75%;
+  margin-left: 158px;
+}
+.main-heading-box .headin-sec2 {
+  color: white;
+  margin-top: 9px;
+  font-size: 15px;
+  border: 1px solid darkblue;
+  text-align: left;
+  width: 75%;
+  margin-left: 158px;
+}
+.main-heading-box .headin-sec3 {
+  color: white;
+  margin-top: 9px;
+  font-size: 15px;
+  border: 1px solid darkblue;
+  text-align: left;
+  width: 75%;
+  margin-left: 158px;
+}
+.main-heading-box .headin-sec4 {
+  color: white;
+  margin-top: 9px;
+  font-size: 15px;
+  border: 1px solid darkblue;
+  text-align: left;
+  width: 75%;
+  margin-left: 158px;
+}
+.main-heading-box .headin-sec5 {
+  color: white;
+  margin-top: 9px;
+  font-size: 15px;
+  border: 1px solid darkblue;
+  text-align: left;
+  width: 75%;
+  margin-left: 158px;
+}
+.main-heading-box .headin-sec6 {
+  color: white;
+  margin-top: 9px;
+  font-size: 15px;
+  border: 1px solid darkblue;
+  text-align: left;
+  width: 75%;
+  margin-left: 158px;
+}
+.banner-sec img {
+  width: 85%;
+  margin-top: 100px;
+}
+.banner-heading{
+  margin-top: -250px;
+}
+.banner-heading h1 {
+  color: white;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 170px;
+  margin-top: -24px;
+}
+.banner-heading button {
+  height: 50px;
+  width: 174px;
+  margin-left: -634px;
+  background: #08082c;
+  color: white;
+  font-size: 16px;
+  margin-top: 9px;
+  cursor: pointer;
+}
+.banner-heading button:hover{
+  background: #292954;
+transition: 0.5s ease-in-out;
+}
+.banner-heading input {
+  height: 49px;
+  width: 517px;
+  margin-left: 305px;
+  margin-top: 4px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: #101018;
+ 
+}
+.banner-heading .banner-form{
+  margin-top: -180px;
+   color: white;
+}

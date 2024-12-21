@@ -22,6 +22,7 @@ import Resturant from "../assets/images/restaurant1-opt.jpg"
 import Resturant3 from "../assets/images/restaurant3-opt.jpg"
 import eccomerce from "../assets/images/ecommerce/4.jpg"
 import frmae from "../assets/images/frame.png"
+import formbg from "../assets/images/form-bg.jpg"
 
 
 
@@ -355,12 +356,57 @@ const Home = () => {
   </div>
 </div>
 </div>
-<div className="heading-sec">
- <p>Frequently Asked <br /> Queries</p>
-  <h1>Website Packages</h1>
- </div>
-</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
+<div className="project-sec">
+ <div className="project-para-sec">
+  <h1>Frequently Asked <br /> Queries</h1>
+  <h3>The most frequently asked queries and their answers</h3>
+ </div>
+ </div>
+ <div className="main-heading-box">
+  <div className="headin-sec1">
+    <h1> How long does it take to design a logo?</h1>
+    </div>
+    <div className="headin-sec2">
+    <h1> How long does it take to design a logo?</h1>
+    </div>
+    <div className="headin-sec3">
+    <h1> How long does it take to design a logo?</h1>
+    </div>
+    <div className="headin-sec4">
+    <h1> How long does it take to design a logo?</h1>
+    </div>
+    <div className="headin-sec5">
+    <h1> How long does it take to design a logo?</h1>
+    </div>
+    <div className="headin-sec6">
+    <h1> How long does it take to design a logo?</h1>
+    </div>
+ </div>
+ <div className="banner-sec">
+<img src={formbg} alt="" />
+ </div>
+<div className="banner-heading">
+<h1>Get free <br /> consultancy</h1>
+<button>Get Free Counsolaty</button>
+<div className="banner-form">
+<input type="text" placeholder="Name"/> <br />
+<input type="text" placeholder="Email"/> <br />
+<input type="text" placeholder="Your Company"/>
+</div>
+</div>
+<br />
+<br />
+<br />
+
+   </div>
   );
 };
 
