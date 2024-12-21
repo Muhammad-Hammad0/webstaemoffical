@@ -18,6 +18,11 @@ import search from "../assets/images/search.png"
 import tab from "../assets/images/tab-web-1.png"
 import tab1 from "../assets/images/tab-web-2.png"
 import cube from "../assets/images/cube.png"
+import Resturant from "../assets/images/restaurant1-opt.jpg"
+import Resturant3 from "../assets/images/restaurant3-opt.jpg"
+import eccomerce from "../assets/images/ecommerce/4.jpg"
+import frmae from "../assets/images/frame.png"
+
 
 
 const Home = () => {
@@ -209,9 +214,153 @@ const Home = () => {
     <p>Awards Wining</p>
   </div>
 </div>
-   </div>
 
-  
+
+<div className="project-sec">
+ <div className="project-para-sec">
+ <p>RECENT PROJECTS</p>
+  <h1>Our latest case studies</h1>
+ </div>
+ <div className="project-nav">
+<li>WEB DESIGN</li>
+<li>LOGO DESIGN</li>
+<li>BRANDING DESIGN</li>
+ </div>
+</div>
+<div className="project-main">
+  <div className="pro-sec-box1">
+  <div className="project1">
+    <img src={Resturant} alt="" />
+  </div>
+  </div>
+  <div className="project2">
+  <img src={Resturant3} alt="" />
+  </div>
+  <div className="project3">
+  <img src={eccomerce} alt="" />
+  </div>
+  <div className="project4">
+  <img src={Resturant} alt="" />
+  <button><a href="#">VIEW MORE</a></button>
+  </div>
+  <div className="project5">
+  <img src={Resturant3} alt="" />
+  </div>
+</div>
+
+<div className="project-sec">
+ <div className="project-para-sec">
+ <p>TESTIMONIALSS</p>
+  <h1>What PeopleSay About <br /> LogoOrWeb</h1>
+  <h3>We always connected dots across ecosystems.</h3>
+ </div>
+ </div>
+<div className="video-container">
+  <img src={frmae} alt="" />
+  <img src={frmae} alt="" />
+  <img src={frmae} alt="" />
+</div>
+
+<br />
+<br />
+<div className="project-sec">
+ <div className="project-para-sec">
+ <p>With Best Pricing</p>
+  <h1>Website Packages</h1>
+ </div>
+ <div className="btn-con-men">
+  <button>Web Design</button>
+  <button>E-Commerce</button>
+  <button>Custome Dashboard</button>
+ </div>
+ </div>
+
+<div className="main-pay-con-sec">
+<div className="pay-container">
+  <div className="payment1">
+    <h1>Startup <br /> <span>Web Package</span></h1>
+    <p>$ 299
+    </p>
+    <div className="bot-border"></div>
+    <div className="ul-con">
+      <li>5 Stock Photos</li>
+      <li>5 Page Website</li>
+      <li>3 Banner Design</li>
+      <li>1 jQuery Slider Banner</li>
+      <li>FREE Google Friendly Sitemap</li>
+      <li>48 to 72 hours TAT</li>
+    </div>
+    <button>Equare Now</button>
+    <h6>15 days time period</h6>
+  </div>
+
+
+</div>
+<div className="pay-container2">
+<div className="payment2">
+    <h1>Startup <br /> <span>Web Package</span></h1>
+    <p>$ 299
+    </p>
+    <div className="bot-border"></div>
+    <div className="ul-con">
+      <li>5 Stock Photos</li>
+      <li>5 Page Website</li>
+      <li>3 Banner Design</li>
+      <li>1 jQuery Slider Banner</li>
+      <li>FREE Google Friendly Sitemap</li>
+      <li>48 to 72 hours TAT</li>
+    </div>
+    <button>Equare Now</button>
+    <h6>15 days time period</h6>
+  </div>
+</div>
+</div>
+<div className="main-pay-con-sec">
+<div className="pay-container">
+  <div className="payment1">
+    <h1>Startup <br /> <span>Web Package</span></h1>
+    <p>$ 299
+    </p>
+    <div className="bot-border"></div>
+    <div className="ul-con">
+      <li>5 Stock Photos</li>
+      <li>5 Page Website</li>
+      <li>3 Banner Design</li>
+      <li>1 jQuery Slider Banner</li>
+      <li>FREE Google Friendly Sitemap</li>
+      <li>48 to 72 hours TAT</li>
+    </div>
+    <button>Equare Now</button>
+    <h6>15 days time period</h6>
+  </div>
+
+
+</div>
+<div className="pay-container2">
+<div className="payment2">
+    <h1>Startup <br /> <span>Web Package</span></h1>
+    <p>$ 299
+    </p>
+    <div className="bot-border"></div>
+    <div className="ul-con">
+      <li>5 Stock Photos</li>
+      <li>5 Page Website</li>
+      <li>3 Banner Design</li>
+      <li>1 jQuery Slider Banner</li>
+      <li>FREE Google Friendly Sitemap</li>
+      <li>48 to 72 hours TAT</li>
+    </div>
+    <button>Equare Now</button>
+    <h6>15 days time period</h6>
+  </div>
+</div>
+</div>
+<div className="heading-sec">
+ <p>Frequently Asked <br /> Queries</p>
+  <h1>Website Packages</h1>
+ </div>
+</div>
+
   );
 };
 

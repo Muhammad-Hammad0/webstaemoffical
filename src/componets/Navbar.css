@@ -3,6 +3,7 @@ body{
   padding: 0;
   box-sizing: border-box;
  background-color: rgb(1, 1, 19);
+ overflow-x: hidden;
 }
 
 
@@ -464,4 +465,241 @@ font-size: 15px;
   margin-left: 43px;
   margin-top: 23px;
 }
+.project-sec .project-para-sec p {
+  color: #52455c;
+  text-align: center;
+  margin-left: 3px;
+  margin-top: 98px;
+  word-spacing: 7px;
+  letter-spacing: 10px;
+}
+.project-sec .project-para-sec h1 {
+  color: wheat;
+  font-size: 46px;
+  margin-top: -11px;
+  font-weight: 900;
+  word-spacing: 15px;
+}
 
+.project-sec .project-nav {
+  display: flex;
+  color: white;
+  margin-top: 70px;
+}
+.project-sec .project-nav li {
+  margin-left: 77px;
+  list-style: none;
+  font-weight: 100;
+transform: scale(10px);
+}
+.project-sec .project-nav li:hover{
+  border-bottom: 2px solid darkblue;
+  transition: 0.6s ease;
+}
+.project-main{
+  display: flex;
+}
+
+.project-main img{
+  width: 250px;
+  height: 600px;
+  margin-top: 30px;
+}
+.project-main .project1 img {
+  margin-left: -137px;
+  height: 450px;
+}
+.project-main .project2 img {
+  margin-left: 33px;
+}
+.project-main .project3 img {
+  margin-left: 40px;
+ 
+}
+.project-main .project4 img {
+  margin-left: 50px;
+   height: 450px;
+}
+.project-main .project4 button {
+  background-color: #181856;
+  height: 52px;
+  width: 140px;
+  margin-top: 75px;
+  margin-left: 45px;
+}
+.project-main .project4 a{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.project-main .project5 img {
+  margin-left: 60px;
+}
+.video-container{
+  margin-left: -53px;
+}
+.video-container img {
+  margin-top: 45px;
+  margin-left: 56px;
+}
+.btn-con-men {
+  margin-left: -38px;
+}
+.btn-con-men button {
+  height: 50px;
+  width: 174px;
+  margin-left: 31px;
+  background: #08082c;
+  color: white;
+  font-size: 16px;
+  border-radius: 31px;
+  cursor: pointer;
+}
+.btn-con-men button:hover {
+  background: #292954;
+  transition: 0.5s ease-in-out;
+}
+.main-pay-con-sec{
+  display: flex;
+  margin-left: 37px;
+}
+
+
+.pay-container {
+  color: white;
+  border: 1px solid darkblue;
+  width: 480px;
+  margin-top: 65px;
+  text-align: left;
+  
+}
+.pay-container .payment1 .bot-border{
+  border-bottom: 1px solid darkblue;
+}
+.pay-container .payment1 h1 {
+  font-size: 29px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.pay-container .payment1 p {
+  font-size: 38px;
+  color: #15155a;
+  margin-top: -89px;
+  margin-left: 353px;
+}
+.pay-container .payment1 h1 span {
+  margin-top: 10px;
+  color: #282850;
+  font-size: 17px;
+}
+
+.pay-container .ul-con {
+  margin-top: 24px;
+  margin-left: 33px;
+  line-height: 43px;
+}
+
+.pay-container button {
+  height: 50px;
+  width: 174px;
+  margin-left: 13px;
+  background: #08082c;
+  color: white;
+  font-size: 16px;
+  margin-top: 37px;
+  cursor: pointer;
+}
+.pay-container button:hover{
+  background: #292954;
+  transition: 0.5s ease-in-out;
+}
+
+/* second box */
+
+.pay-container2 {
+  color: white;
+  border: 1px solid darkblue;
+  width: 480px;
+  margin-top: 65px;
+  text-align: left;
+  margin-left: 90px;
+  
+}
+.pay-container2 .payment1 .bot-border{
+  border-bottom: 1px solid darkblue;
+}
+.pay-container2 .payment1 h1 {
+  font-size: 29px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.pay-container2 .payment1 p {
+  font-size: 38px;
+  color: #15155a;
+  margin-top: -89px;
+  margin-left: 353px;
+}
+.pay-container2 .payment1 h1 span {
+  margin-top: 10px;
+  color: #282850;
+  font-size: 17px;
+}
+
+.pay-container2 .ul-con {
+  margin-top: 24px;
+  margin-left: 33px;
+  line-height: 43px;
+}
+
+.pay-container2 button {
+  height: 50px;
+  width: 174px;
+  margin-left: 13px;
+  background: #08082c;
+  color: white;
+  font-size: 16px;
+  margin-top: 37px;
+  cursor: pointer;
+}
+.pay-container2 button:hover{
+  background: #292954;
+  transition: 0.5s ease-in-out;
+}
+
+.pay-container h6 {
+  color: #303078;
+  font-size: 13px;
+  margin-left: 337px;
+  margin-top: -38px;
+}
+
+.pay-container2 h6 {
+  color: #303078;
+  font-size: 13px;
+  margin-left: 337px;
+  margin-top: -38px;
+}
+.pay-container2 .payment2{
+  margin-top: 10px;
+}
+
+.pay-container2 .payment2 .bot-border{
+  border-bottom: 1px solid darkblue;
+}
+.pay-container2 .payment2 h1 {
+  font-size: 29px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.pay-container2 .payment2 p {
+  font-size: 38px;
+  color: #15155a;
+  margin-top: -89px;
+  margin-left: 353px;
+}
+.pay-container2 .payment2 h1 span {
+  margin-top: 10px;
+  color: #282850;
+  font-size: 17px;
+}
