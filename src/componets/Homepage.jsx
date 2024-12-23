@@ -23,7 +23,10 @@ import Resturant3 from "../assets/images/restaurant3-opt.jpg"
 import eccomerce from "../assets/images/ecommerce/4.jpg"
 import frmae from "../assets/images/frame.png"
 import formbg from "../assets/images/form-bg.jpg"
-
+import Footerimg from "../assets/images/footer-img.jpg"
+import coun1 from "../assets/images/coun-1_compressed.webp"
+import coun2 from "../assets/images/coun-2.png"
+import coun3 from "../assets/images/coun-3.png"
 
 
 const Home = () => {
@@ -405,6 +408,62 @@ const Home = () => {
 <br />
 <br />
 <br />
+
+<div className="main-footer-sec">
+  <img src={Footerimg} alt="" />
+  <div className="footer">
+  </div>
+  <div className="card-coun1">
+      <img src={coun1} alt="" />
+<h1>CAN <br />
++1 437 739 1483</h1>
+<p>320 Bay St., Toronto, <br /> ON M5H 4A6, Canada</p>
+    </div>
+    <div className="card-coun2">
+      <img src={coun2} alt="" />
+<h1>UK <br />
++44 20 3286 7999</h1>
+<p>Office # 207 1-45 <br /> Durham St, London </p>
+    </div>
+    <div className="card-coun3">
+      <img src={coun3} alt="" />
+<h1>US <br />
+(414) 626-7032</h1>
+<p>6 Jean Drive, Towaco, <br /> Montville, New Jersey</p>
+    </div>
+   <div className="foot-con">
+    <h1>WebSteam<br /><span>Offical site</span></h1>
+    <p>A creative digital design studio and technology solutions supplier influencing creativity and excellence in the digital world.</p>
+   </div>
+<div className="foot-nav-main">
+<div className="quick-links">
+  <h1>Quick Links</h1>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About us</a></li>
+  <li><a href="#">Contact us</a></li>
+  <li><a href="#">Term and Condition</a></li>
+  <li><a href="#">Privicy Policy</a></li>
+</div>
+<div className="Services">
+  <h1>Services</h1>
+  <li><a href="#">Website development</a></li>
+  <li><a href="#">Logo Design</a></li>
+  <li><a href="#">Branding Design</a></li>
+  <li><a href="#">Digital Merketing</a></li>
+  <li><a href="#">Mobile and App Development</a></li>
+</div>
+<div className="Porfolio">
+  <h1>Porfolio</h1>
+  <li><a href="#">Logo Design Portfolio</a></li>
+  <li><a href="#">Website Development</a></li>
+  <li><a href="#">Branding Portfolio</a></li>
+  <li><a href="#">Mobile App Portfolio</a></li>
+  <li><a href="#">Graphis Design Portfolio</a></li>
+</div>
+</div>
+</div>
+
+
 
    </div>
   );

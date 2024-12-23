@@ -3,6 +3,7 @@ body{
   padding: 0;
   box-sizing: border-box;
  background-color: rgb(1, 1, 19);
+ height: 572rem;
  overflow-x: hidden;
 }
 
@@ -799,4 +800,173 @@ transition: 0.5s ease-in-out;
 .banner-heading .banner-form{
   margin-top: -180px;
    color: white;
+}
+
+/* Footer section */
+
+.main-footer-sec{
+  margin-top: -24px;
+}
+
+.main-footer-sec img{
+  width: 30%;
+  margin-left: -55%;
+  height: 800px;
+}
+
+.main-footer-sec .footer  {
+  height: 800px;
+  width: 55%;
+  margin-left: 37.5%;
+  margin-top: -69.5%;
+  background-color: rgb(1, 1, 19);
+}
+.card-coun1   {
+  /* border: 1px solid white; */
+  width: 16%;
+  height: 109px;
+  background: #0e0e18;
+  border-radius: 12px;
+  margin-left: 455px;
+  margin-top: -774px;
+}
+.main-footer-sec 
+ .card-coun1 p{
+  color: white;
+  margin-left: 24px;
+}
+.main-footer-sec 
+ .card-coun1 h1 {
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 64px;
+  margin-top: -19px;
+}
+.main-footer-sec 
+ .card-coun1 img {
+  height: 33px;
+  width: 44px;
+  margin-right: 17px;
+  margin-bottom: -24px;
+}
+
+
+
+
+.card-coun2 {
+  /* border: 1px solid white; */
+  width: 16%;
+  height: 109px;
+  background: #0e0e18;
+  border-radius: 12px;
+  margin-left: 658px;
+  margin-top: -108px;
+}
+.main-footer-sec 
+ .card-coun2 p{
+  color: white;
+  margin-left: 24px;
+}
+.main-footer-sec 
+ .card-coun2 h1 {
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 64px;
+  margin-top: -19px;
+}
+.main-footer-sec 
+ .card-coun2 img {
+  height: 33px;
+  width: 44px;
+  margin-right: 17px;
+  margin-bottom: -24px;
+}
+
+
+
+
+.card-coun3 {
+  /* border: 1px solid white; */
+  width: 16%;
+  height: 109px;
+  background: #0e0e18;
+  border-radius: 12px;
+  margin-left: 860px;
+  margin-top: -108px;
+}
+.main-footer-sec 
+ .card-coun3 p{
+  color: white;
+  margin-left: 24px;
+}
+.main-footer-sec 
+ .card-coun3 h1 {
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 64px;
+  margin-top: -19px;
+}
+.main-footer-sec 
+ .card-coun3 img {
+  height: 33px;
+  width: 44px;
+  margin-right: 17px;
+  margin-bottom: -24px;
+}
+
+.foot-con h1 {
+  color: white;
+  font-size: 47px;
+  font-weight: 800;
+}
+.foot-con span{
+  color: #15155a;
+}
+.foot-con p {
+  color: white;
+  font-size: 21px;
+  text-align: left;
+  margin-left: 455px;
+  font-weight: 100;
+}
+
+.foot-nav-main {
+  display: flex;
+  margin-left: 461px;
+  color: white;
+  font-size: 13px;
+  margin-top: 17px;
+  line-height: 4;
+}
+.foot-nav-main .quick-links li {
+  margin-left: 25px;
+  text-align: left;
+  line-height: 2;
+  list-style: none;
+  font-size: 17px;
+}
+.foot-nav-main .Services li {
+  margin-left: 40px;
+  text-align: left;
+  line-height: 2;
+  list-style: none;
+  font-size: 17px;
+}
+.foot-nav-main .Porfolio li {
+  margin-left: 85px;
+  text-align: left;
+  line-height: 2;
+  list-style: none;
+  font-size: 17px;
+}
+.foot-nav-main a{
+  color: white;
+  transition: transform 2s ease, background-color 2s ease;
+}
+.foot-nav-main a:hover{
+  transform: translateY(-50px);
+      background-color: #555;
 }
