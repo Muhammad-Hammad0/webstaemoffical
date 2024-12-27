@@ -28,6 +28,14 @@ import coun1 from "../assets/images/coun-1_compressed.webp"
 import coun2 from "../assets/images/coun-2.png"
 import coun3 from "../assets/images/coun-3.png"
 
+// importing icons
+
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMailUnreadOutline } from "react-icons/io5";
+import { IoMdMenu } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
 
 const Home = () => {
   return (
@@ -38,10 +46,10 @@ const Home = () => {
   
       </div>
       
-       <li>support@logoorweb.com</li>
-        <li>tel:(414) 626-7032</li>
+      <li><IoMailUnreadOutline/>support@logoorweb.com</li>
+        <li><FaPhoneAlt />tel:(414) 626-7032</li>
      
-      <li>Menu</li>
+      <li>Menu<IoMdMenu /></li>
     </div>
 
     <div className="hero-sec">
@@ -50,7 +58,7 @@ const Home = () => {
 <h2>We Design <br /> Experiences, We</h2>
 <h1>Develop Success</h1>
  <button>Contact With Us</button>
- <span>tel:(414) 626-7032</span>
+ <span><FaPhoneAlt />tel:(414) 626-7032</span>
       </div>
       <div className="img-sec">
 <img src={banner} alt="banner-img" />
@@ -71,6 +79,7 @@ const Home = () => {
 <br />
 <br />
 <br />
+
       <div className="main-box-sec">
       <div className="box-sec1">
         <img src={serviceicon1} alt="" />
@@ -88,7 +97,7 @@ const Home = () => {
         <p>Boost the business with smooth creative thinking and growth with excellent IT consultation and solutions.</p>
       </div>
       </div>
-
+      
       <div className="service-sec">
         <h2>what we do</h2>
         <p>Your <span>Vision,</span> Our<span>Inspiration,</span><br /> Business <span>Revolution</span> 
@@ -146,6 +155,18 @@ const Home = () => {
 <br />
 <br />
 <br />
+
+<div class="marquee-container">
+        <div class="marquee-text">
+            .Brand    .Brand    .Brand    .Brand    .Brand    .Brand    .Brand .Brand    .Brand    .Brand     .Brand    .Brand
+        </div>
+    </div>
+    <div class="marquee-container2">
+        <div class="marquee-text2">
+            .Brand    .Brand    .Brand    .Brand    .Brand    .Brand    .Brand .Brand    .Brand    .Brand     .Brand    .Brand
+        </div>
+    </div>
+    <br />
 <br />
 <br />
 <br />
@@ -153,7 +174,7 @@ const Home = () => {
 <br />
 <br />
 <br />
-<br />
+
 
 <div className="our-serv">
     <div className="our-serv1">
@@ -464,7 +485,10 @@ const Home = () => {
 </div>
 
 
-
+<div className="social-links">
+  <a href="#"><FaInstagram /></a>
+ <a href="#"> <FaFacebook /></a>
+</div>
    </div>
   );
 };

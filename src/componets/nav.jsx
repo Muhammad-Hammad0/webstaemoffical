@@ -43,28 +43,58 @@
 //     </div>
 //   );
 // }
-import { useState } from "react";
+// import { useState } from "react";
 
-export default function VerticalText() {
-  const [isVertical, setIsVertical] = useState(false);
+// export default function VerticalText() {
+//   const [isVertical, setIsVertical] = useState(false);
 
-  return (
-    <div style={{ padding: "20px" }}>
-      <button onClick={() => setIsVertical(!isVertical)}>
-        Toggle Text Orientation
-      </button>
-      <div
-        style={{
-          writingMode: isVertical ? "vertical-rl" : "horizontal-tb",
-          textOrientation: "upright",
-          border: "1px solid #ccc",
-          padding: "10px",
-          marginTop: "20px",
-          fontSize: "16px",
-        }}
-      >
-        {isVertical ? "This is vertical text." : "This is horizontal text."}
-      </div>
-    </div>
-  );
-}
+//   return (
+//     <div style={{ padding: "20px" }}>
+//       <button onClick={() => setIsVertical(!isVertical)}>
+//         Toggle Text Orientation
+//       </button>
+//       <div
+//         style={{
+//           writingMode: isVertical ? "vertical-rl" : "horizontal-tb",
+//           textOrientation: "upright",
+//           border: "1px solid #ccc",
+//           padding: "10px",
+//           marginTop: "20px",
+//           fontSize: "16px",
+//         }}
+//       >
+//         {isVertical ? "This is vertical text." : "This is horizontal text."}
+//       </div>
+//     </div>
+//   );
+// }
+
+// import { useState } from "react";
+// import "./Navbar.css";
+
+
+
+// export default function MenuSlider() {
+//   const [isOpen, setIsOpen] = useState(false);
+
+//   const toggleMenu = () => {
+//     setIsOpen(!isOpen);
+//   };
+
+//   return (
+//     <div>
+//       <button onClick={toggleMenu}>
+//         {isOpen ? "Cancel" : "Open Menu"}
+//       </button>
+//       <div className={`${styles.slider} ${isOpen ? styles.open : ""}`}>
+//         <ul>
+//           <li>Home</li>
+//           <li>About</li>
+//           <li>Services</li>
+//           <li>Contact</li>
+//         </ul>
+//       </div>
+//     </div>
+//   );
+// }
+
